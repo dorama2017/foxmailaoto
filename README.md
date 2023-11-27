@@ -1,5 +1,5 @@
 # foxmail_auto_send 
- WIN10 available, multiple tasks ， exchange email address
+Can be used on Windows10; multiple tasks; requires exchange email address
 1. pip install -r requirement.txt
 2. change the information in the info.xlsx
 3. run the FoxmailSender.exe or the emailtest.py (NOTE: The Auto_Foxmail.py/FoxmailSender.exe and info.xlsx should be in the same folder)
