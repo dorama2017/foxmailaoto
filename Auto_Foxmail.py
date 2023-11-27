@@ -74,7 +74,7 @@ info = r'\info.xlsx'
 # 输入你的域账号如example\leo
 sender,pwd,NAME,szunicom =senderinfo(path,info)
 cred = Credentials(username= sender, password=pwd)
-#attachmentpath = r'C:\Users\unicom\Downloads\深圳月报模板 (8).xlsx'
+
 
 config = Configuration(service_endpoint=szunicom, credentials=cred, version=version, auth_type=NTLM)
 
@@ -82,10 +82,7 @@ sender= sender
 
 
 num,recipient_emails,leaders,contents,attachmentpaths,subjects =basicinfo(path,info)
-#print(leaders)
-#i  = 1
-#print(sender, recipient_emails[i], subjects[i], contents[i], attachmentpaths[i])
-#save_email_draft(sender, sender, subjects[i], contents[i], attachmentpaths[i],cc)
+
 
 
 for i in range(num):
